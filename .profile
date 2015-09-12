@@ -8,6 +8,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 alias gco='git co'
 alias gci='git ci'
 alias grb='git rb'
+alias gspp='git stash && git pull --rebase && git stash pop'
 
 export SVN_EDITOR=vim
 
